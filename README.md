@@ -20,10 +20,18 @@ Criterias that were given prior making this application
 - THEN the saved events persis
 
 
-### Usage
+## Usage
 Users can click on the indicated time that they wish to use to input any specific memo or event. This will be saved in their local storage and once refreshed it will also stay until it is cleared. The following application has the current date and time set in.
 
 
 ![061a7b2e0295c8a9c28c08509a0294de](https://user-images.githubusercontent.com/109758045/192074875-46058ea5-9787-4e17-9c92-b39c0a0227e9.png)
 
+## Resources
+https://github.com/DianasJourney/event-calender
+link to application: https://dianasjourney.github.io/event-calender/
 
+## Credits
+@dianasJourney
+
+## License
+N/A
