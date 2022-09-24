@@ -1,10 +1,11 @@
 let row = 0
+let td = new Date()
 
 // get id timeBlock element
 let timeBlocks = $('#timeBlocks')
 for (let i = 9; i <= 17; i++) {
   let time = i
-  let td = new Date();
+  // grabs the current hour for our current time so that whenever a certain time hits it'll change the background color
   let currentTime = `${td.getHours()}`
   let backgroundColor = ''
 
