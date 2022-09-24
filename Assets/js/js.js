@@ -4,7 +4,8 @@ let row = 0
 let timeBlocks = $('#timeBlocks')
 for (let i = 9; i <= 17; i++) {
   let time = i
-  let currentTime = 12
+  let td = new Date();
+  let currentTime = `${td.getHours()}`
   let backgroundColor = ''
 
   if (time < currentTime) {
